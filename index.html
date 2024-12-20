@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація користувача</title>
+    <link rel="stylesheet" href="./index.css"/>
+</head>
+<body>
+    <h1>Форма реєстрації</h1>
+    <form id="registration-form">
+        <input type="text" id="surname" placeholder="Прізвище" required>
+        <input type="text" id="name" placeholder="Ім'я" required>
+        <input type="number" id="age" placeholder="Вік" required>
+        <input type="text" id="education" placeholder="Освіта" required>
+        <input type="text" id="desiredPosition" placeholder="Бажана посада" required>
+        <button type="submit">Зареєструвати</button>
+    </form>
+
+    <div class="user-list" id="user-list"></div>
+
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
